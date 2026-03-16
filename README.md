@@ -111,5 +111,6 @@ Instituição: UniFECAF — 2026
 
 ## Licença
 
-Este projeto foi desenvolvido para fins acadêmicos.  
-Sinta-se livre para estudar, referenciar e adaptar com os devidos créditos.
+Distribuído sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
