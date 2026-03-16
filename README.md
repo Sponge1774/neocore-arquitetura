@@ -1,6 +1,7 @@
+
 # NeoCore — Arquitetura Von Neumann + RISC 8-bit
 
-> Projeto acadêmico desenvolvido para a disciplina **Computer Architecture and Organization** — UniFECAF, 2026.
+> 🇧🇷 Português | 🇺🇸 [English version below](#english-version)
 
 ---
 
@@ -40,7 +41,7 @@ O objetivo foi projetar, documentar e apresentar um processador funcional do zer
 | **IR** | Instruction Register | Armazena a instrução em execução |
 | **AC** | Acumulador | Guarda o resultado da ALU |
 
-### ALU — Operações suportadas
+### ALU — Operações Suportadas
 
 | Opcode (IR[7:6]) | Operação |
 |---|---|
@@ -82,8 +83,9 @@ A UC é implementada como uma **FSM mod-4** (Finite State Machine de 4 estados),
 ## Arquivos do Repositório
 
 ```
-neocore/
+neocore-arquitetura/
 ├── README.md                        # Este arquivo
+├── LICENSE                          # Licença MIT
 ├── NeoCore_drawio.png               # Imagem do diagrama
 ├── NeoCore_Arquitetura.drawio       # Arquivo editável do diagrama (Draw.io)
 └── NeoCore_Parte_Teorica_Final.pdf  # Relatório teórico completo
@@ -96,15 +98,15 @@ neocore/
 | Ferramenta | Uso |
 |---|---|
 | [Draw.io](https://app.diagrams.net) | Modelagem do diagrama da arquitetura |
-| LaTeX / ReportLab | Geração do relatório em PDF |
+| ReportLab | Geração do relatório em PDF |
 
 ---
 
 ## Autor
 
-**Eduardo Souza Mattos**  
-RA: 35984  
-Curso: Análise e Desenvolvimento de Sistemas  
+**Eduardo Souza Mattos**
+RA: 35984
+Curso: Análise e Desenvolvimento de Sistemas
 Instituição: UniFECAF — 2026
 
 ---
@@ -112,5 +114,126 @@ Instituição: UniFECAF — 2026
 ## Licença
 
 Distribuído sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+---
+---
+
+# English Version
+
+> 🇺🇸 English | 🇧🇷 [Versão em Português acima](#neocore--arquitetura-von-neumann--risc-8-bit)
+
+---
+
+## Overview
+
+**NeoCore** is an 8-bit processor architecture that combines the **Von Neumann** model — unified memory for both instructions and data — with **RISC** principles — a reduced instruction set and a fixed four-stage machine cycle.
+
+The goal was to design, document, and present a functional processor from scratch, covering all components of a real CPU: registers, ALU, Control Unit, memory hierarchy, and I/O devices.
+
+---
+
+## Architecture Diagram
+
+![NeoCore Diagram](NeoCore_drawio.png)
+
+> 🔗 [Open interactive diagram on Draw.io](https://app.diagrams.net/?title=NeoCore#RzZndbuJGFIDv8xQuK1XbCxT%2FghEhEhh2FzU0ESHavavG42Ow1mbo2E5Ir%2FYVqvYBut2Lqhe92kfgTfZJOv5ljEPiGColihRjj2N%2F35w5Z2Y489ZvKVotJsQC9%2FyMEhKcn5x5awNcV3CsXkNsnJ7zn6WGsEIUlkFy6eTk7LtmU5ht%2Fg1ClwjNZvHugDW%2FRW4IvcZPQAxCQfj26Q%2BhT38JnQCCkCJhOr42BL1pOkFD8IN7lzUNYB10F4Hn9qSuH1DyEQziEtpbkiV0bcd1uY%2FIdebLHmYvBLR7CzRwMHL78UnPsSwXuncL9qjrFcLQu2OoXUrCpQVWT%2BzaZBlcO79CT9KT4%2FjxUnycPOKVpLU0Q%2BwyCvavYV3glxqRmbdAPAjovcAuyqLYEO6jvw3hzrGCRa%2BhRacW4MwX7A6VHSO%2F15in90RuTxNdmUnj6qZkEa%2FCXCO7nnvy7xzPRUyCHyCakCgiJ%2BiVhUC3ccFhRrTLm3hQ67OrCbq%2BRVd0Dl0Rn2a%2FMUroIc7Jb5aOhSwQ2K%2FBXpISF4TXN8YPuY6sY6VSl6exxJlJ2QpmREtto0Lv2%2FFPwdWDNqIOKsdC7EPb%2BpBanI%2FW0zr6F%2BVQYCpyIez696%2FWqPv6YvN1zsJeADawnMDb%2FBMNgpfr5WAxU5g77A2RxfKJX1JEYe7njgpNHxs4ssZrAMWWbWv%2FwIkHi3xQYEgqN1JkToCkPGaAJ11tB8eVEYfCFSVzijw2QMIoIdYKAdO0wDafYN%2FDG7vfBZYSYEXbdrjC8WpVcR2a446nMe54yd4yxIFDlmlQvBhm%2FUjQaNvH%2FaSP%2Bzj0QjeK6BfVvZ1DST1z27%2BTQdLBE%2FAIe8ogtO2X1rO1eJP8xag2X6mDSqnLAy9X8M4BiqJ5EooqXnZL9doPkqVBuwjeNiUbyVVqf9qyYu3XxFLxl%2BXKxb8w1UF4AdvJTvRJuJCSMieKi2%2BfflfeLOqVthSpIERFkqrjOqUt6qoKJV%2BvWtkKFQxtw2DanyT0akzfrkvfwXLbFPeGw%2FHo48FwGD7h8C8nwmB8eZ040GMHb%2Bo6wNBRLP0pB1xM1HUgS3UcJMlhfHpZygsOyYUMHX9FfCdwbokfJYbR6XX1nGCd0NnNCdBiwJ0qOSFtWTEn6OWcIOm1csIC1lKB30X3wrvRhyQmrmquAFKaggvTVlpirXTAeqhUKLSYX%2BXqhMavBbXq%2BPJ%2B%2FP4Lx5dE8XB%2BZT%2F%2FePrC%2BbVD%2B%2F%2BjaeX4M8DRzC9FX67CoB69beuope1NBEejLyTCyvTpToiDXRKlOG%2FzmU2DluXpEr7HLjdZyNpP0vbPWO7ptgY7wSBD21L2zZUUXlPa8nn7JCq3R9RROTN61bRoQ4AXOf233%2F4U3oxmxrs4Ngahj5HgxMujzd%2BbL6RWlKRgxbmzqYEs7kRJhYVw3FV7lg7SdojIYp2lgwWYWMC5%2BCwMR8blcBTLGEZXHdvBqJYFRddBwXuD43ALsnYkDbAGHAa8h7%2BE0YeRcTNLREQbSitKMPh%2BPRWqgkR1Z%2F6Q6jmOimwhcbCKO8pYTIQ%2FcjK%2BCO%2Bn49lo0Dd%2BjHW8pegWCRT80A1YUq1lpNUyzRbaWVQklo5jpK0cYCRJpANE2YqCPYOkm2Xx5uJwOP15cHMdbTg3zyejSXmr0dzOuqLWQtT6dbxTvy06YM0hoSI0WJA5WSJ3lJ3bHTMYt7MN%2FfcxSjGNthG09m1MR9vQ0bNiYz4JKeuSeP%2BLZfQ5BPnCcU%2FepeAiNmVObt8fQJGYYX%2FWj8UwJ83zh7bjLU5M1PpQMYra0S3zETEdXTQ7zxGTysjcRHtIh4uJA2X80OJkq8OYTS8iHXU0QFvFeZ5NNBQyLBaVjmw%2BRwPi4iOZRR%2FBQjzLKM1EpHojgquvGfEDHGmlz1CyavdI4qgIxBPI%2FydB9soZQl6pjsug%2FJ8M%2BTtnEFyNORjj5Ow0%2Fu41OsN9Ifsf)
+
+---
+
+## Architecture
+
+### Main Blocks
+
+| Block | Components | Function |
+|---|---|---|
+| **CPU** | PC, MAR, MBR, IR, AC, CU, ALU, MUX 4:1 | Processing and control |
+| **Memory** | Cache L1, RAM, ROM BIOS, MUX 3:1 | Hierarchical storage |
+| **I/O** | HEX Displays, Buttons WE/OP0/OP1 | Control input and visual output |
+
+### CPU Registers
+
+| Register | Full Name | Function |
+|---|---|---|
+| **PC** | Program Counter | Address of the next instruction |
+| **MAR** | Memory Address Register | Sends address to memory |
+| **MBR** | Memory Buffer Register | Holds data returned from memory |
+| **IR** | Instruction Register | Stores the instruction being executed |
+| **AC** | Accumulator | Holds the ALU operation result |
+
+### ALU — Supported Operations
+
+| Opcode (IR[7:6]) | Operation |
+|---|---|
+| `00` | ADD |
+| `01` | SUB |
+| `10` | AND |
+| `11` | OR |
+
+### Memory Hierarchy
+
+| Level | Address Range | Type |
+|---|---|---|
+| Cache L1 | `0x00 – 0x3F` | Fast access |
+| RAM | `0x40 – 0x7F` | Main memory |
+| ROM BIOS | `0x80 – 0xFF` | Boot program (read-only) |
+
+---
+
+## Machine Cycle
+
+```
+[1] FETCH       PC → MAR → Memory → MBR → IR
+[2] DECODE      CU reads IR[7:6] and sets CTRL_OP
+[3] EXECUTE     ALU(AC, MBR) with selected operation
+[4] WRITEBACK   Result → MUX 4:1 → AC
+      ↑_________________LOOP_____________________↑
+```
+
+> Clock frequency: **4 Hz** — allows each stage to be observed in real time.
+
+---
+
+## Control Unit
+
+The CU is implemented as a **mod-4 FSM** (Finite State Machine with 4 states), each corresponding to one stage of the machine cycle. The `UC_STATE` signal indicates the current state; the `CTRL_OP` signal selects the ALU operation.
+
+---
+
+## Repository Files
+
+```
+neocore-arquitetura/
+├── README.md                        # This file
+├── LICENSE                          # MIT License
+├── NeoCore_drawio.png               # Architecture diagram image
+├── NeoCore_Arquitetura.drawio       # Editable diagram file (Draw.io)
+└── NeoCore_Parte_Teorica_Final.pdf  # Full theoretical report
+```
+
+---
+
+## Tools Used
+
+| Tool | Purpose |
+|---|---|
+| [Draw.io](https://app.diagrams.net) | Architecture diagram modeling |
+| ReportLab | PDF report generation |
+
+---
+
+## Author
+
+**Eduardo Souza Mattos**
+Student ID: 35984
+Degree: Systems Analysis and Development
+Institution: UniFECAF — 2026
+
+---
+
+## License
+
+Distributed under the **MIT License**. See [LICENSE](LICENSE) for more details.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
