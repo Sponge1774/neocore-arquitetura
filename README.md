@@ -1,4 +1,5 @@
 
+
 # NeoCore — Arquitetura Von Neumann + RISC 8-bit
 
 > 🇧🇷 Português | 🇺🇸 [English version below](#english-version)
@@ -15,7 +16,7 @@ O objetivo foi projetar, documentar e apresentar um processador funcional do zer
 
 ## Diagrama da Arquitetura
 
-![Diagrama NeoCore](NeoCore_drawio.png)
+![Diagrama NeoCore](NeoCore_drawio__3_.png)
 
 > 🔗 [Abrir diagrama interativo no Draw.io](https://app.diagrams.net/#G1kzPLKlWRylspouDQqnxHkYC-c5_ukaLW#%7B%22pageId%22%3A%2274jmDBkqLj5kTu3bC8fV%22%7D)
 
@@ -82,14 +83,13 @@ A UC é implementada como uma **FSM mod-4** (Finite State Machine de 4 estados),
 
 ## Arquivos do Repositório
 
-```
-neocore-arquitetura/
-├── README.md                        # Este arquivo
-├── LICENSE                          # Licença MIT
-├── NeoCore_drawio.png               # Imagem do diagrama
-├── NeoCore_Arquitetura.drawio       # Arquivo editável do diagrama (Draw.io)
-└── NeoCore_Parte_Teorica_Final.pdf  # Relatório teórico completo
-```
+| Arquivo | Descrição |
+|---|---|
+| [README.md](https://github.com/Sponge1774/neocore-arquitetura/blob/main/README.md) | Este arquivo |
+| [LICENSE](https://github.com/Sponge1774/neocore-arquitetura/blob/main/LICENSE) | Licença MIT |
+| [NeoCore_drawio__3_.png](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_drawio__3_.png) | Imagem do diagrama |
+| [NeoCore.drawio](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore.drawio) | Arquivo editável do diagrama (Draw.io) |
+| [NeoCore_Parte_Teorica_Final_08mar2026.pdf](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_Parte_Teorica_Final_08mar2026.pdf) | Relatório teórico completo |
 
 ---
 
@@ -136,7 +136,7 @@ The goal was to design, document, and present a functional processor from scratc
 
 ## Architecture Diagram
 
-![NeoCore Diagram](NeoCore_drawio.png)
+![NeoCore Diagram](NeoCore_drawio__3_.png)
 
 > 🔗 [Open interactive diagram on Draw.io](https://app.diagrams.net/#G1kzPLKlWRylspouDQqnxHkYC-c5_ukaLW#%7B%22pageId%22%3A%2274jmDBkqLj5kTu3bC8fV%22%7D)
 
@@ -203,14 +203,13 @@ The CU is implemented as a **mod-4 FSM** (Finite State Machine with 4 states), e
 
 ## Repository Files
 
-```
-neocore-arquitetura/
-├── README.md                        # This file
-├── LICENSE                          # MIT License
-├── NeoCore_drawio.png               # Architecture diagram image
-├── NeoCore_Arquitetura.drawio       # Editable diagram file (Draw.io)
-└── NeoCore_Parte_Teorica_Final.pdf  # Full theoretical report
-```
+| File | Description |
+|---|---|
+| [README.md](https://github.com/Sponge1774/neocore-arquitetura/blob/main/README.md) | This file |
+| [LICENSE](https://github.com/Sponge1774/neocore-arquitetura/blob/main/LICENSE) | MIT License |
+| [NeoCore_drawio__3_.png](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_drawio__3_.png) | Architecture diagram image |
+| [NeoCore.drawio](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore.drawio) | Editable diagram file (Draw.io) |
+| [NeoCore_Parte_Teorica_Final_08mar2026.pdf](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_Parte_Teorica_Final_08mar2026.pdf) | Full theoretical report |
 
 ---
 
