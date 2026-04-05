@@ -16,7 +16,7 @@ O objetivo foi projetar, documentar e apresentar um processador funcional do zer
 
 ## Diagrama da Arquitetura
 
-![Diagrama NeoCore](NeoCore_drawio(3)(1).png)
+![Diagrama NeoCore](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore.drawio%20(3)%20(1).png)
 
 > 🔗 [Abrir diagrama interativo no Draw.io](https://app.diagrams.net/#G1kzPLKlWRylspouDQqnxHkYC-c5_ukaLW#%7B%22pageId%22%3A%2274jmDBkqLj5kTu3bC8fV%22%7D)
 
