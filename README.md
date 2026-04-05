@@ -87,7 +87,7 @@ A UC é implementada como uma **FSM mod-4** (Finite State Machine de 4 estados),
 |---|---|
 | [README.md](https://github.com/Sponge1774/neocore-arquitetura/blob/main/README.md) | Este arquivo |
 | [LICENSE](https://github.com/Sponge1774/neocore-arquitetura/blob/main/LICENSE) | Licença MIT |
-| [NeoCore_drawio(3).png](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_drawio__3_.png) | Imagem do diagrama |
+| [NeoCore_drawio(3).png](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_drawio(3)(1).png) | Imagem do diagrama |
 | [NeoCore.drawio](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore.drawio) | Arquivo editável do diagrama (Draw.io) |
 | [NeoCore_Parte_Teorica_Final_08mar2026.pdf](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_Parte_Teorica_Final_08mar2026.pdf) | Relatório teórico completo |
 
