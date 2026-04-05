@@ -16,7 +16,7 @@ O objetivo foi projetar, documentar e apresentar um processador funcional do zer
 
 ## Diagrama da Arquitetura
 
-![Diagrama NeoCore](NeoCore_drawio__3_.png)
+![Diagrama NeoCore](NeoCore_drawio(3).png)
 
 > 🔗 [Abrir diagrama interativo no Draw.io](https://app.diagrams.net/#G1kzPLKlWRylspouDQqnxHkYC-c5_ukaLW#%7B%22pageId%22%3A%2274jmDBkqLj5kTu3bC8fV%22%7D)
 
@@ -87,7 +87,7 @@ A UC é implementada como uma **FSM mod-4** (Finite State Machine de 4 estados),
 |---|---|
 | [README.md](https://github.com/Sponge1774/neocore-arquitetura/blob/main/README.md) | Este arquivo |
 | [LICENSE](https://github.com/Sponge1774/neocore-arquitetura/blob/main/LICENSE) | Licença MIT |
-| [NeoCore_drawio__3_.png](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_drawio__3_.png) | Imagem do diagrama |
+| [NeoCore_drawio(3).png](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_drawio__3_.png) | Imagem do diagrama |
 | [NeoCore.drawio](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore.drawio) | Arquivo editável do diagrama (Draw.io) |
 | [NeoCore_Parte_Teorica_Final_08mar2026.pdf](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_Parte_Teorica_Final_08mar2026.pdf) | Relatório teórico completo |
 
