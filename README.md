@@ -89,7 +89,7 @@ A UC é implementada como uma **FSM mod-4** (Finite State Machine de 4 estados),
 | [LICENSE](https://github.com/Sponge1774/neocore-arquitetura/blob/main/LICENSE) | Licença MIT |
 | [NeoCore_drawio(3).png](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore.drawio%20(3)%20(1).png) | Imagem do diagrama |
 | [NeoCore.drawio](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore.drawio) | Arquivo editável do diagrama (Draw.io) |
-| [NeoCore_Parte_Teorica_Final_08mar2026.pdf](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_Parte_Teorica_Final_08mar2026.pdf) | Relatório teórico completo |
+| [NeoCore_Parte_Teorica_Final_08mar2026.pdf](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_Parte_Teorica_Final_08mar2026%20(1).pdf) | Relatório teórico completo |
 
 ---
 
@@ -209,7 +209,7 @@ The CU is implemented as a **mod-4 FSM** (Finite State Machine with 4 states), e
 | [LICENSE](https://github.com/Sponge1774/neocore-arquitetura/blob/main/LICENSE) | MIT License |
 | [NeoCore_drawio(3)(1).png](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore.drawio%20(3)%20(1).png) | Architecture diagram image |
 | [NeoCore.drawio](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore.drawio) | Editable diagram file (Draw.io) |
-| [NeoCore_Parte_Teorica_Final_08mar2026.pdf](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_Parte_Teorica_Final_08mar2026.pdf) | Full theoretical report |
+| [NeoCore_Parte_Teorica_Final_08mar2026.pdf](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_Parte_Teorica_Final_08mar2026%20(1).pdf) | Full theoretical report |
 
 ---
 
