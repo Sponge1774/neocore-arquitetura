@@ -207,7 +207,7 @@ The CU is implemented as a **mod-4 FSM** (Finite State Machine with 4 states), e
 |---|---|
 | [README.md](https://github.com/Sponge1774/neocore-arquitetura/blob/main/README.md) | This file |
 | [LICENSE](https://github.com/Sponge1774/neocore-arquitetura/blob/main/LICENSE) | MIT License |
-| [NeoCore_drawio__3_.png](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_drawio__3_.png) | Architecture diagram image |
+| [NeoCore_drawio(3)(1).png](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore.drawio%20(3)%20(1).png) | Architecture diagram image |
 | [NeoCore.drawio](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore.drawio) | Editable diagram file (Draw.io) |
 | [NeoCore_Parte_Teorica_Final_08mar2026.pdf](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore_Parte_Teorica_Final_08mar2026.pdf) | Full theoretical report |
 
