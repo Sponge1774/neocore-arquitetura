@@ -136,7 +136,7 @@ The goal was to design, document, and present a functional processor from scratc
 
 ## Architecture Diagram
 
-![NeoCore Diagram](NeoCore_drawio__3_.png)
+![NeoCore Diagram](https://github.com/Sponge1774/neocore-arquitetura/blob/main/NeoCore.drawio%20(3)%20(1).png)
 
 > 🔗 [Open interactive diagram on Draw.io](https://app.diagrams.net/#G1kzPLKlWRylspouDQqnxHkYC-c5_ukaLW#%7B%22pageId%22%3A%2274jmDBkqLj5kTu3bC8fV%22%7D)
 
